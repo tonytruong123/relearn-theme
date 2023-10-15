@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kafka Consumer Proxy on Streaming Data</title>
+    <link>http://example.org/kafka-consumer-proxy/index.html</link>
+    <description>Recent content in Kafka Consumer Proxy on Streaming Data</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 14 Oct 2023 13:15:22 -0700</lastBuildDate><atom:link href="http://example.org/kafka-consumer-proxy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Usage</title>
+      <link>http://example.org/kafka-consumer-proxy/usage/index.html</link>
+      <pubDate>Sat, 14 Oct 2023 13:15:22 -0700</pubDate>
+      <guid>http://example.org/kafka-consumer-proxy/usage/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Introduction</title>
+      <link>http://example.org/kafka-consumer-proxy/introduction/index.html</link>
+      <pubDate>Sat, 14 Oct 2023 13:15:21 -0700</pubDate>
+      <guid>http://example.org/kafka-consumer-proxy/introduction/index.html</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

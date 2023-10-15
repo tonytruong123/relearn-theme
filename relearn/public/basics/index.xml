@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Basics on Streaming Data</title>
+    <link>http://example.org/basics/index.html</link>
+    <description>Recent content in Basics on Streaming Data</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 14 Oct 2023 13:15:06 -0700</lastBuildDate><atom:link href="http://example.org/basics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contact</title>
+      <link>http://example.org/basics/contact/index.html</link>
+      <pubDate>Sat, 14 Oct 2023 13:15:06 -0700</pubDate>
+      <guid>http://example.org/basics/contact/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>General Guide</title>
+      <link>http://example.org/basics/general-guide/index.html</link>
+      <pubDate>Sat, 14 Oct 2023 13:15:06 -0700</pubDate>
+      <guid>http://example.org/basics/general-guide/index.html</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
