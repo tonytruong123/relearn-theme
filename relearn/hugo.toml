@@ -80,3 +80,13 @@ landingPageName = "<i class='fas fa-home'></i> Home"
 [[menu.shortcuts]]
 name = "<i class='fas fa-tags'></i> Tags"
 url = "/tags"
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-fw fa-camera'></i> Showcases"
+url = "showcase/"
+weight = 11
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
+url = "more/credits/"
+weight = 30
