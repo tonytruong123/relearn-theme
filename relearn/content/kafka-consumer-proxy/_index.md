@@ -1,5 +1,4 @@
 +++
-archetype = "chapter"
 title = "Kafka Consumer Proxy"
 weight = 2
 +++

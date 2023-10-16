@@ -99,8 +99,8 @@
                   <span>&nbsp;</span>
                   <div class="control-style">
                     <label class="a11y-only" for="R-select-variant">{{ T "Theme" }}</label>
-                    <select id="R-select-variant" onchange="window.variants && variants.changeVariant( this.value );">
-                      {{- $firstvariant := true }}
+                    <select id="R-select-variant" onchange="window.variants && variants.changeVariant(this.value); if(this.value === 'zen-dark') document.getElementById('logoImage').src = '/images/Kafka_Pic.png'; else document.getElementById('logoImage').src = '/images/Kafka_Pic.png'; console.log('Theme changed to:', this.value);">                      
+                      {{- $firstvariant := true }}                  
                       {{- range $themevariants }}
                         {{- $themevariant := . }}
                         {{- $variantname := replaceRE "[-_]+" " " $themevariant }}

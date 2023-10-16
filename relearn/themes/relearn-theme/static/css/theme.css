@@ -590,36 +590,6 @@ p:empty {
 }
 
 /* in case of image render hook, Hugo may generate empty <p>s that we want to ignore aswell, so a simple :first-child or :last-child is not enough */
-#R-body table th > :nth-child(1 of :not(:empty)),
-#R-body table th > :nth-child(1 of :not(:empty)) :nth-child(1 of :not(:empty)),
-#R-body table td > :nth-child(1 of :not(:empty)),
-#R-body table td > :nth-child(1 of :not(:empty)) :nth-child(1 of :not(:empty)),
-#R-body div.box > .box-content > :nth-child(1 of :not(:empty)),
-#R-body div.box > .box-content > :nth-child(1 of :not(:empty)) :nth-child(1 of :not(:empty)),
-#R-body div.expand > .expand-content-text > :nth-child(1 of :not(:empty)),
-#R-body div.expand > .expand-content-text > :nth-child(1 of :not(:empty)) :nth-child(1 of :not(:empty)),
-#R-body div.tab-content > .tab-content-text > :nth-child(1 of :not(:empty)),
-#R-body div.tab-content > .tab-content-text > :nth-child(1 of :not(:empty)) :nth-child(1 of :not(:empty)) {
-    margin-top: 0;
-}
-
-#R-body table th > :nth-last-child(1 of :not(:empty)),
-#R-body table th > :nth-last-child(1 of :not(:empty)) :nth-last-child(1 of :not(:empty)),
-#R-body table th > div.highlight:last-child pre:not(.mermaid),
-#R-body table td > :nth-last-child(1 of :not(:empty)),
-#R-body table td > :nth-last-child(1 of :not(:empty)) :nth-last-child(1 of :not(:empty)),
-#R-body table td > div:last-child pre:not(.mermaid),
-#R-body div.box > .box-content > :nth-last-child(1 of :not(:empty)),
-#R-body div.box > .box-content > :nth-last-child(1 of :not(:empty)) :nth-last-child(1 of :not(:empty)),
-#R-body div.box > .box-content > div:last-child pre:not(.mermaid),
-#R-body div.expand > .expand-content-text > :nth-last-child(1 of :not(:empty)),
-#R-body div.expand > .expand-content-text > :nth-last-child(1 of :not(:empty)) :nth-last-child(1 of :not(:empty)),
-#R-body div.expand > .expand-content-text > div:last-child pre:not(.mermaid),
-#R-body div.tab-content > .tab-content-text > :nth-last-child(1 of :not(:empty)),
-#R-body div.tab-content > .tab-content-text > :nth-last-child(1 of :not(:empty)) :nth-last-child(1 of :not(:empty)),
-#R-body div.tab-content > .tab-content-text > div:last-child pre:not(.mermaid) {
-    margin-bottom: 0;
-}
 
 /* attachments shortcode */
 

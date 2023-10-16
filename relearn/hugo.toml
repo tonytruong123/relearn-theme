@@ -13,10 +13,13 @@ theme = "relearn-theme"
 
 [params]
     alwaysopen = false
+    
+    # Shows a checkmark for visited pages on the menu
+    showVisitedLinks = true
 
     editURL = "https://www.google.com/"
 
-    author = "Truong Team"
+    author = "Minh Hoa Truong"
 
     description = "Documentation Site"
 
@@ -82,7 +85,7 @@ name = "<i class='fas fa-tags'></i> Tags"
 url = "/tags"
 
 [[menu.shortcuts]]
-name = "<i class='fas fa-fw fa-camera'></i> Showcases"
+name = "<i class='fas fa-fw fa-camera'></i> On Going Project"
 url = "showcase/"
 weight = 11
 
